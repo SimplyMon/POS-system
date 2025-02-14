@@ -1,0 +1,143 @@
+/* Container styling */
+.container {
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+/* Card header styling */
+.card-header {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+.card-header .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-header .btn.btn-danger {
+  right: 5rem;
+  background-color: #f5f5f5;
+  color: black;
+  margin-right: 10px;
+}
+.card-header .btn.btn-danger:hover {
+  background-color: #e2e6ea;
+}
+
+.card-header .btn.btn-info {
+  right: 1rem;
+  background-color: #17a2b8;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 1rem;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.section {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.section:last-child {
+  margin-right: 0;
+}
+
+.section h4 {
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin: 0.5rem 0;
+}
+
+/* Table styling */
+.order-items-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.order-items-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-items-table th,
+.order-items-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.order-items-table th {
+  background-color: #f5f5f5;
+}
+
+.item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+}
+
+/* Centered message */
+.no-tracking {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.no-tracking h5 {
+  margin-bottom: 1rem;
+}

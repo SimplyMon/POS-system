@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(../pictures/lamesarap.png) no-repeat center center fixed;
+  background-size: cover;
+}
+.container-main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  align-items: center;
+}
+/* LOGO TITLE */
+.title {
+  margin-left: 300px;
+}
+.title img {
+  width: 100%;
+  height: 300px;
+}
+.title h1 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+/* LOGIN CONTAINER */
+form {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  width: 350px;
+  text-align: left;
+  margin-right: 300px;
+  align-items: center;
+}
+.login_title p {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-right: 300px;
+}
+.login_input_container {
+  margin-bottom: 20px;
+}
+.login_input_container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: black;
+  font-size: 16px;
+}
+.login_input_container input {
+  width: 93%;
+  padding: 7px 10px;
+  border: 1px solid #3f3f3f;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+.remember input[type="checkbox"] {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.remember label {
+  cursor: pointer;
+}
+.button_container {
+  margin-top: 20px;
+  width: 100%;
+}
+#btn {
+  background: linear-gradient(45deg, #af3728, #ce5444);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+#btn:hover {
+  background: linear-gradient(45deg, #ce5444, #af3728);
+}
+.err-msg {
+  color: blue !important;
+  margin-top: 10px;
+  text-align: center;
+}

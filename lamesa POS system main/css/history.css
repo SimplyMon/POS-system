@@ -1,0 +1,103 @@
+.container {
+  width: 97%;
+  padding: 20px;
+}
+.history-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.history-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.history-card-title h4 {
+  margin: 0;
+}
+.history-card-filters {
+  display: flex;
+  justify-content: flex-end;
+}
+.filter-row {
+  display: flex;
+  gap: 10px;
+}
+.filter-item {
+  flex: 1;
+}
+.filter-item input,
+.filter-item select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.btn-submit,
+.btn-reset {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-submit {
+  background: #007bff;
+}
+.btn-reset {
+  background-color: white;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.btn-reset:hover {
+  background-color: #e2e6ea;
+}
+.history-card-body {
+  margin-top: 20px;
+}
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.history-table th,
+.history-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-weight: 600;
+}
+.history-table thead {
+  background: #f8f9fa;
+}
+.completed {
+  color: green;
+  font-weight: 600;
+}
+.canceled {
+  color: red; /* To ensure the text is readable on the red background */
+  font-weight: 600;
+}
+.btn-action {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.btn-action.view {
+  background: #17a2b8;
+}
+.btn-action.print {
+  background: #007bff;
+}
+.btn-action.cancel {
+  background: #dc3545;
+}
+.btn-action.complete {
+  background: #28a745;
+}

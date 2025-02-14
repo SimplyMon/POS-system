@@ -1,0 +1,138 @@
+/* Header Styling */
+.header {
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.header .title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #dc3545;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Billing Area Styling */
+#myBillingArea {
+  margin-bottom: 20px;
+}
+
+.billing-info {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.billing-info td,
+.billing-info th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.billing-info .center {
+  text-align: center;
+}
+
+.billing-info .company-name {
+  font-size: 23px;
+  margin: 2px;
+}
+
+.billing-info .address {
+  font-size: 16px;
+  margin: 2px;
+}
+
+.billing-info .section-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.billing-info .detail {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Product Table Styling */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-table .bold {
+  font-weight: bold;
+}
+
+/* Grand Total Styling */
+.grand-total {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Action Buttons Styling */
+.action-buttons {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.action-buttons .btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-buttons .btn-primary {
+  background-color: #007bff;
+}
+
+.action-buttons .btn-info {
+  background-color: #17a2b8;
+}
+
+.action-buttons .btn-warning {
+  background-color: #ffc107;
+}
+
+/* No Items Message */
+.no-items {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
