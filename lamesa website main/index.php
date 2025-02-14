@@ -971,6 +971,8 @@
     <?php
     include 'footer.php';
     ?>
+
+    <!-- asdasdas -->
 </body>
 
 </html>
